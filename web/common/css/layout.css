@@ -1,0 +1,96 @@
+@charset "utf-8";
+.header{height:90px;background:#fff;border-bottom:1px solid #ec008c;}
+.header .headArea{position:relative;z-index:900;width:1020px;margin:0 auto;*zoom:1;}
+.header .headArea:after{content:"";display:block;clear:both;}
+.header .logo{width:101px;height:53px;float:left;margin-top:20px;}
+.header .logo a{display:block;}
+.header .gnbWrap{position:relative;z-index:900;height:90px;float:left;margin-left:47px;}
+.header .gnb{*zoom:1;}
+.header .gnb:after{content:"";display:block;clear:both;}
+.header .gnb li{float:left;}
+.header .gnb li a{height:50px;display:block;padding:40px 33px 0;font-size:20px;}
+.header .gnb li a span{display:block;height:15px;overflow:hidden;}
+.header .gnb li.m01 a span{width:134px;background:url("../../images/img/gnb_menu01.png") no-repeat 0 0;}
+.header .gnb li.m02 a span{width:57px;background:url("../../images/img/gnb_menu02.png") no-repeat 0 0;}
+.header .gnb li.m03 a span{width:59px;background:url("../../images/img/gnb_menu03.png") no-repeat 0 0;}
+.header .gnb li.m04 a span{width:59px;background:url("../../images/img/gnb_menu04.png") no-repeat 0 0;}
+.header .gnb li.m05 a span{width:93px;background:url("../../images/img/gnb_menu05.png") no-repeat 0 0;}
+.header .gnb li a:hover span{background-position:0 -15px;}
+
+.header .loginBtn{width:84px;height:25px;display:block;float:right;margin-top:33px;border:1px solid #e1dedc;border-radius:12px;background:#f5f5f5 url("../../images/icon/icon_login.jpg") no-repeat 14px center;}
+.header .loginBtn span{padding:6px 0 0 28px;display:block;color:#6a676d;font-family:"dotum";font-size:12px;}
+.header .menuList{position:absolute;left:15px;top:91px;z-index:900;width:732px;height:229px;/* padding:0 30px; */background:#fff;border:1px solid #ec008c;border-top:0;*zoom:1;display:none;}
+.header .menuList:after{content:"";display:block;clear:both;}
+.header .menuList dl{
+	width:20%;height:229px;float:left;background:url("../../images/icon/icon_bg_y.jpg") repeat-y 0 0;
+	-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;transition: all 0.2s ease;
+}
+.header .menuList dl:first-child{background:none;}
+.header .menuList dl dt{padding:24px 0 0 21px;margin-bottom:13px;text-transform:uppercase;font-weight:bold;}
+.header .menuList dl dd a{display:block;padding:7px 5px 7px 20px; transition:all 0.5s, color 0.1s 0.1s;}
+.header .menuList dl dd a:hover{box-shadow:400px 0 0 0 rgba(0,0,0,0.5) inset}
+.header .menuList dl:hover{background:#ec008c;}
+.header .menuList dl:hover dt,
+.header .menuList dl:hover dd a{color:#fff;}
+
+.subVisual{height:180px;background:#351b6f url("../../images/img/img_sub_visual.jpg") no-repeat center 0;}
+.lnbWrap{height:50px;background:#ec008c url("../../images/img/img_lnb_bg.gif") no-repeat center 0;}
+.lnbWrap .lnbArea{width:1020px;margin:0 auto;}
+.lnbWrap .lnb{*zoom:1;}
+.lnbWrap .lnb:after{content:"";display:block;clear:both;}
+.lnbWrap .lnb li{
+	float:left;border-left:1px solid #f34daf;
+	-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;transition: all 0.5s ease;
+}
+.lnbWrap .lnb li:first-child{border-left:0;}
+.lnbWrap .lnb li a{height:50px;display:block;padding:0 40px;color:#fff;font-size:16px;}
+.lnbWrap .lnb li span{padding-top:16px;display:block;line-height:100%;}
+.lnbWrap .lnb li:hover,
+.lnbWrap .lnb li.on{background:#fff;border-left:1px solid #f34daf;}
+.lnbWrap .lnb li:hover a,
+.lnbWrap .lnb li.on a{font-weight:bold;color:#da1a8c;}
+.lnbWrap .lnb li.on + li{border-left:0;}
+
+.container{}
+.container .contents{width:1020px;margin:0 auto;min-height:400px;padding:36px 0 62px;}
+.titleArea{height:40px;margin-bottom:36px;*zoom:1;}
+.titleArea:after{content:"";display:block;clear:both;}
+
+.titleArea .pageTitle{float:left;color:#000;padding:1px 0;font-size:36px;}
+.titleArea .location{float:right;padding-left:19px;margin-top:20px;background:url("../../images/icon/icon_home.jpg") no-repeat 0 center;}
+.titleArea .location span{padding:0 6px;}
+.titleArea .location a{text-transform:uppercase;color:#959595;font-size:12px;}
+
+.footer{height:102px;background:#f8f8f8;border-top:1px solid #d1d1d1;}
+.footer .btmArea{width:1020px;margin:0 auto;*zoom:1;}
+.footer .btmArea:after{content:"";display:block;clear:both;}
+.footer .agree{float:left;margin-top:30px;}
+.footer .agree ul{*zoom:1;}
+.footer .agree ul:after{content:"";display:block;clear:both;}
+.footer .agree ul li{float:left;margin-left:10px;padding-left:10px;background:url("../../images/icon/icon_blt01.jpg") no-repeat 0 center;}
+.footer .agree ul li:first-child{margin-left:0;padding-left:0;background:none;}
+.footer .agree ul li a{display:block;color:#444;}
+.footer .agree p{margin-top:12px;color:#606060;}
+.footer .sponsor{/* width:212px; */float:right;margin-top:24px;}
+.footer .sponsor:after{content:"";display:block;clear:both;}
+.footer .fila{display:block;float:left;}
+.footer .familySite{position:relative;z-index:900;width:140px;height:28px;float:left;background:#fff url("../../images/icon/icon_familysite_up.jpg") no-repeat right center;border:1px solid #d5d5d5;}
+.footer .familySite.on{background:#fff url("../../images/icon/icon_familysite_down.jpg") no-repeat right center;}
+.footer .familySite > a{height:28px;display:block;font-size:12px;}
+.footer .familySite > a > span{display:block;padding:5px 0 0 10px;}
+.footer .siteList{position:absolute;left:-1px;top:-87px;z-index:900;width:140px;height:88px;overflow:hidden;overflow-y:scroll;background:#fff;border:1px solid #d5d5d5;display:none;}
+.footer .siteList ul li{border-top:1px solid #d5d5d5;}
+.footer .siteList ul li:first-child{border-top:0;}
+.footer .siteList ul li a{height:28px;display:block;padding:0 5px 0 10px;font-size:12px;}
+.footer .siteList ul li a span{display:block;padding-top:6px;line-height:1.4em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;}
+.footer .siteList ul li a:hover{text-decoration:underline;}
+
+.imgTest{position:relative;width:250px;height:250px;overflow:hidden;}
+.imgTest .over{position:absolute;left:100%;top:0;width:250px;height:250px;display:none;}
+.imgTest .bg{
+	position:relative;width:250px;height:250px;background:#ec008c;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	 filter: alpha(opacity=60);opacity: .6; 
+}
+.imgTest .txt{position:absolute;left:0;top:50%;width:100%;height:132px;text-align:center;margin:-66px 0 0 0;}
+.imgTest .txt p{height:64px;padding:28px 10px 0 10px;line-height:1.2em;color:#fff;font-weight:bold;font-size:18px;}

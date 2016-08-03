@@ -1,0 +1,153 @@
+@charset "utf-8";
+.scheduleInfo{*zoom:1;}
+.scheduleInfo:after{content:"";display:block;clear:both;}
+.scheduleInfo .gameSection{width:50%;height:134px;float:left;padding-top:26px;background:#351b6f;text-align:center;}
+.scheduleInfo .gameSection:first-child{background:#482b87;}
+.scheduleInfo .gameSection *{vertical-align:top;}
+.scheduleInfo .teamInfo{display:inline-block;}
+.scheduleInfo .teamInfo .logo,
+.scheduleInfo .teamInfo .name{display:block;}
+.scheduleInfo .teamInfo .logo{width:82px;height:82px;background:#fff;border-radius:50%;}
+.scheduleInfo .teamInfo .name{margin-top:10px;color:#fff;font-size:12px;}
+.scheduleInfo .teamInfo .logo img{width:90%;margin-top:2px;}
+.scheduleInfo .gameInfo{position:relative;width:194px;height:110px;display:inline-block;}
+.scheduleInfo .gameInfo .date,
+.scheduleInfo .gameInfo .score,
+.scheduleInfo .gameInfo .link{display:block;color:#fff;}
+.scheduleInfo .gameInfo .date{line-height:1.3em;height:38px;}
+.scheduleInfo .gameInfo .date em{display:block;}
+.scheduleInfo .gameInfo .date em.on{color:#ffe800;font-size:16px;}
+.scheduleInfo .gameInfo .score{line-height:1.3em;}
+.scheduleInfo .gameInfo .score em{font-size:24px;}
+.scheduleInfo .gameInfo .score em.on{color:#ffe800;}
+.scheduleInfo .gameInfo .link{position:absolute;left:50%;bottom:0;width:70px;height:24px;background:#644b99;border:1px solid #7f6bab;border-radius:35px;margin-left:-35px;}
+.scheduleInfo .gameInfo .link span{padding-top:4px;display:block;color:#dcdae6;font-size:12px;}
+.scheduleInfo .gameSection:first-child + .gameSection .score{margin-top:8px;}
+
+.planList{border-top:1px solid #595687;border-bottom:1px solid #595687;}
+.planList > ul > li{border-top:1px solid #595687}
+.planList > ul > li:first-child{border-top:0;}
+.tables03 table tbody tr th{background:#faf8f6;border-right:1px solid #e1e1e1;text-align:center;}
+.tables03 table tbody tr td{padding:10px 0;border-top:1px solid #e1e1e1;text-align:center;}
+.tables03 table tbody tr:first-child td{border-top:0;}
+.tables03 table tbody tr.on td{background:#f8f8f8;}
+.tables03 .team{text-align:left;}
+.tables03 .team li{margin-top:5px;}
+.tables03 .team li:first-child{margin-top:0;}
+.tables03 .team img{width:32px;margin-right:10px;}
+.tables03 .score li{margin-top:20px;font-weight:bold;color:#000;}
+.tables03 .score li:first-child{margin-top:0;}
+.tables03 .win, .tables03 .lose{width:30px;height:30px;display:inline-block;border-radius:50%;}
+.tables03 .win em, .tables03 .lose em{padding-top:6px;display:block;color:#fff;}
+.tables03 .win{background:#ec008c;}
+.tables03 .lose{background:#b3bbc0;}
+.tables03 .gameRecord,
+.tables03 .gamePrevious{width:56px;height:56px;display:inline-block;border-radius:50%;}
+.tables03 .gameRecord span,
+.tables03 .gamePrevious span{line-height:1.3em;display:block;color:#fff;font-size:12px;}
+.tables03 .gameRecord{background:#605ca8;}
+.tables03 .gameRecord:hover{background:#ec008c;}
+.tables03 .gamePrevious{background:#b3bbc0;}
+.tables03 .gameRecord span{padding-top:13px;}
+.tables03 .gamePrevious span{padding-top:20px;}
+
+.tables04{border-top:2px solid #595687;border-bottom:1px solid #595687;}
+.tables04 table thead tr th{padding:12px 0;background:#f8f8f8;}
+.tables04 table tbody tr td,
+.tables04 table tbody tr th{padding:12px 0;text-align:center;border-top:1px solid #e1e1e1;}
+
+.tables05{border-top:2px solid #595687;border-bottom:1px solid #595687;}
+.tables05 table thead tr th{padding:17px 0;background:#f8f8f8;}
+.tables05 table tbody tr td{height:38px;padding:5px 0;text-align:center;border-top:1px solid #e1e1e1;}
+.tables05 table tbody tr td.on{background:#feeff8;}
+.tables05 table tbody tr td:first-child,
+.tables05 table tbody tr td em{font-weight:bold;}
+.tables05 table tbody tr.on td{color:#ec008c;font-weight:bold;}
+.tables05 .team{padding-left:34px;display:block;text-align:left;}
+.tables05 .team img{width:32px;margin-right:5px;}
+/*.tables05 table thead tr th.ar{cursor:pointer;}*/
+.tables05 table thead tr th.ar > span{width:7px;height:4px;display:inline-block;margin-left:3px;background:url("../../images/icon/icon_table_arr.png") no-repeat 0 0;}
+.tables05 table thead tr th.ar > span.on{background-position:0 -4px;}
+
+.detailResult{border:1px solid #e1e1e1;}
+.detailResult .scheduleArea{position:relative;height:60px;background:#482b87;text-align:center;}
+.detailResult .scheduleArea .txt{padding-top:21px;display:inline-block;color:#fff;font-size:22px;}
+.detailResult .scheduleArea .txt em{font-weight:bold;}
+.detailResult .scheduleArea .link{position:absolute;right:26px;top:18px;width:98px;height:24px;display:block;background:#644b99;border:1px solid #7f6bab;border-radius:40px;}
+.detailResult .scheduleArea .link span{padding-top:5px;display:block;color:#dcdae6;font-size:12px;}
+
+.setScore{position:relative;*zoom:1;}
+.setScore:after{content:"";display:block;clear:both;}
+.setScore .team{width:153px;height:180px;padding-top:20px;text-align:center;}
+.setScore .logo,
+.setScore .name,
+.setScore .record{display:block;font-size:12px;}
+.setScore .logo img{width:106px;}
+.setScore .name{margin-top:7px;}
+.setScore .record{margin-top:7px;font-weight:bold;}
+
+.scoreTables{width:710px;float:left;text-align:center;border:1px solid #e1e1e1;border-top:0;border-bottom:0;}
+.scoreTables table thead tr th{height:50px;background:#faf8f6;}
+.scoreTables table thead tr th.first{border-right:1px solid #e1e1e1;}
+.scoreTables table thead tr th.last{border-left:1px solid #e1e1e1;}
+.scoreTables table tbody tr td{height:49px;border-top:1px solid #e1e1e1;}
+.scoreTables table tbody tr.on td{background:#f8f8f8;}
+.scoreTables table tbody tr td.first,
+.scoreTables table tbody tr td.last{background:#f8f8f8;color:#ec008c;font-weight:bold;font-size:46px;}
+.scoreTables table tbody tr td.first{border-right:1px solid #e1e1e1;}
+.scoreTables table tbody tr td.last{border-left:1px solid #e1e1e1;}
+
+.bestRanker ul{*zoom:1;}
+.bestRanker ul:after{content:"";display:block;clear:both;}
+.bestRanker ul li{width:308px;height:155px;float:left;padding-left:18px;padding-top:25px;margin-left:18px;border:1px solid #e1e1e1;*zoom:1;}
+.bestRanker ul li:after{content:"";display:block;clear:both;}
+.bestRanker ul li:first-child{margin-left:0;}
+.bestRanker .player{float:left;}
+.bestRanker .player img{width:152px;/*height:120px;*/}
+.bestRanker .info{float:left;margin:10px 0 0 24px;}
+.bestRanker .info > span{display:block;line-height:1.2em;}
+.bestRanker .role{width:72px;height:26px;background:#0087d4;border-radius:30px;text-align:center;}
+.bestRanker .role em{display:block;padding-top:4px;color:#fff;font-weight:bold;}
+.bestRanker .point{margin-top:20px;}
+.bestRanker .point em{color:#ec008c;font-weight:bold;font-size:32px;}
+.bestRanker .positionName{margin-top:20px;font-size:12px;}
+.bestRanker .positionName em{font-weight:bold;font-size:14px;}
+
+.bestRanker2 ul{*zoom:1;}
+.bestRanker2 ul:after{content:"";display:block;clear:both;}
+.bestRanker2 ul li{width:308px;height:95px;float:left;padding-left:18px;padding-top:25px;margin-left:18px;border:1px solid #e1e1e1;*zoom:1;}
+.bestRanker2 ul li:after{content:"";display:block;clear:both;}
+.bestRanker2 ul li:first-child{margin-left:0;}
+.bestRanker2 .info{margin:10px 0 0 0;*zoom:1;}
+.bestRanker2 .info:after{content:"";display:block;clear:both;}
+.bestRanker2 .info,
+.bestRanker2 .role,
+.bestRanker2 .point,
+.bestRanker2 .positionName{display:block;line-height:1.2em;}
+.bestRanker2 .role{width:72px;height:26px;float:left;background:#0087d4;border-radius:30px;text-align:center;}
+.bestRanker2 .role em{display:block;padding-top:4px;color:#fff;font-weight:bold;}
+.bestRanker2 .playerScore{float:left;margin-left:36px;}
+.bestRanker2 .point em{color:#ec008c;font-weight:bold;font-size:32px;}
+.bestRanker2 .positionName{margin-top:15px;font-size:12px;}
+.bestRanker2 .positionName em{font-weight:bold;font-size:14px;}
+
+.recordTab{border:1px solid #595687;}
+.recordTab ul{*zoom:1;}
+.recordTab ul:after{content:"";display:block;clear:both;}
+.recordTab ul li{float:left;}
+.recordTab.w25p li{width:25%;}
+.recordTab.w50p li{width:50%;}
+.recordTab ul li a{height:48px;display:block;text-align:center;font-size:16px;border-left:1px solid #351b6f;}
+.recordTab ul li:first-child a{border-left:0;}
+.recordTab ul li a:hover{background:#351b6f;color:#fff;}
+.recordTab ul li a span{display:block;padding-top:17px;}
+.recordTab ul li.on a{background:#351b6f;}
+.recordTab ul li.on a span{color:#fff;font-weight:bold;}
+
+.tables10{border-top:2px solid #595687;border-bottom:1px solid #e1e1e1;}
+.tables10 table thead tr th{padding:12px 0;background:#f8f8f8;}
+.tables10 table tbody tr td{padding:12px 0;text-align:center;border-top:1px solid #e1e1e1;border-left:1px solid #e1e1e1;line-height:1.4em;}
+.tables10 table tbody tr th{background:#f8f8f8;border-top:1px solid #e1e1e1;}
+.tables10 table tbody tr td:first-child{border-left:0;}
+
+h3.title01{line-height:1em;color:#000;font-weight:bold;font-size:20px;}

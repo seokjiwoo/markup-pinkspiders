@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<title>흥국생명-핑크스파이더즈</title>
+	<link rel="stylesheet" href="../common/css/common.css">
+	<script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+</head>
+<body>
+
+	<section class="container">
+		<!-- lnb -->
+		<section class="lnb w33p">
+			<ul>
+				<li><a href="#"><span>인사말</span></a></li>
+				<li><a href="#"><span>CI/엠블렘소개</span></a></li>
+				<li class="on"><a href="#"><span>경기장안내</span></a></li>
+			</ul>
+		</section>
+		<!-- // lnb -->
+
+		<!-- contents -->
+		<section class="contents">
+
+			<div class="mapArea">
+				<h3 class="s_title02">인천 계양체육관(배드민턴체육관)</h3>
+				<div class="mapview mt10" id="mapView01"></div>
+				<p class="mt10">흥국생명 핑크스파이더스의 연고지는 인천이며, <span class="bold">인천 일원계양체육관(배드민턴체육관)을 홈경기장</span>으로 이용하고 있습니다.</p>
+				<div class="addInfo mt10">
+					<ul>
+						<li><em>주소 :</em> 인천광역시 계양구 서운동 110번지 일원계양체육관(배드민턴체육관) </li>
+						<li><em>일반버스 :</em> <br />
+							계산역 2번 출구 / 작전역 4번 출구 → 버스환승 (88)
+							→ 서운체육관 하차<br />
+							계산역 2번 출구 / 작전역 4번 출구 → 버스환승 (588)
+							→ 영음교회 하차<br />
+							송내역2번출구(100미터 전방) →버스환승 (302)
+							→ 서운동 체육관 하차<br />
+							<em>셔틀버스 :</em> <br />
+							작전역 3번 출구(경기시작 2시간 30분전 부터)
+						</li>
+					</ul>
+				</div>
+				<h3 class="s_title02 mt15">흥국생명연수원</h3>
+				<div class="mapview mt10" id="mapView02"></div>
+				<p class="mt10">흥국생명 핑크스파이더스의 훈련장은 용인에 있는 <span class="bold">흥국생명연수원</span>입니다</p>
+				<div class="addInfo mt10">
+					<ul>
+						<li><em>주소 :</em>경기도 용인시 기흥구 상하동 92번지 흥국생명배구단</li>
+					</ul>
+				</div>
+			</div>
+			
+		</section>
+		<!-- // contents  -->
+
+	</section>
+
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>
+	    $(document).ready(function(){
+	        var map01 = new moduleUI.googleMap({
+	            idName : "mapView01",
+	            title : "인천 계양체육관",
+	            xPoint : 37.5320230,
+	            yPoint : 126.7451460
+	        });
+	        var map02 = new moduleUI.googleMap({
+	            idName : "mapView02",
+	            title : "흥국생명연수원",
+	            xPoint : 37.2571420,
+	            yPoint : 127.1519120
+	        });
+	    });
+	</script>
+</body>
+</html>

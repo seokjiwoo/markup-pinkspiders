@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>흥국생명-핑크스파이더즈</title>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../common/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!--[if IE 7]><html class="ie7" lang="ko"><![endif]-->
+	<!--[if IE 8]><html class="ie8" lang="ko"><![endif]-->
+	<!--[if IE 9]><html class="ie9" lang="ko"><![endif]-->
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+		<div class="contents">
+			<div class="titleArea">
+				<h2 class="pageTitle">갤러리</h2>
+				<div class="location">
+					<a href="#">home</a> 
+					<span>&gt;</span>
+					<a href="#">news</a>
+					<span> &gt;</span>
+					<a href="#">갤러리</a>
+				</div>
+			</div>
+
+			<div class="guidance">
+				<span class="light"><i><img src="../images/icon/icon_lightbulb.png" alt="게시물등록시유의사항" /></i></span>
+				<p class="txt">
+					<strong>게시물을 올리실 때 확인해 주세요!</strong>
+					<span>불건전한 게시물은 관리자에 의해 동의없이 삭제될 수 있습니다.</span>
+					<span>게시판에 허위사실 유포 및 비방, 욕설 등은 심각한 사이버 범죄에 해당되며 관리자에 의해 삭제될 수 있습니다.</span>
+				</p>
+			</div>
+
+			<div class="searchArea mt20">
+				<ul>
+					<li>
+						<span class="selectType02">
+							<select class="w70">
+								<option>제목</option>
+							</select>
+						</span>
+					</li>
+					<li><input type="text" class="inpType02 w164" /></li>
+					<li><button class="searchBtn bgGray w42"><span>검색</span></button></li>
+				</ul>
+			</div>
+
+			<div class="tables01 mt10">
+				<table>
+					<caption>게시판리스트</caption>
+					<colgroup>
+						<col width="8%" /><col width="62%" /><col width="10%" />
+						<col width="12%" /><col width="8%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">번호</th>
+							<th scope="col">제목</th>
+							<th scope="col">작성자</th>
+							<th scope="col">작성일</th>
+							<th scope="col">조회</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="notice">
+							<td>공지</td>
+							<td>
+								<a href="#">
+									<span>욕설 및 비방이 담긴 글은 삭제합니다.</span>
+								</a>
+							</td>
+							<td><img src="../images/icon/icon_admin.png" alt="관리자" /></td>
+							<td>2010-10-10</td>
+							<td>520</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>조송화 선수~질문인대요 </span>
+									<img src="../images/icon/icon_new.png" alt="new" />
+								</a>
+							</td>
+							<td>kaaf0587</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>불꽃 놀이처럼 아름답고 온 몸을 떨게 만든 황홀한 쇼 - 도로공사 전 5세트</span>
+									<img src="../images/icon/icon_images.png" alt="images" />
+									<img src="../images/icon/icon_new.png" alt="new" />
+									<em>(10)</em>
+								</a>
+							</td>
+							<td>a12345</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>1라운드 잘마추셨습니다.</span>
+									<em>(10)</em>
+								</a>
+							</td>
+							<td>khc102tank</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>1위흥국 VS 6위도공. 승점 10점이 아른-아른</span>
+								</a>
+							</td>
+							<td>stdo48</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>1라운드 마지막 도공과의 경기 잘 치루시길..</span>
+								</a>
+							</td>
+							<td>khc102tank</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>김도희 세터에게 보내는 편지.</span>
+									<img src="../images/icon/icon_images.png" alt="images" />
+								</a>
+							</td>
+							<td>a12345</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>흥국 대 GS 전(2015.10.21.수) 경기 평가와 도로공사 전(2015.10.26.월) 경기 전망. </span>
+									<em>(10)</em>
+								</a>
+							</td>
+							<td>a12345</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>Taylor, Way to go !!</span>
+									<em>(10)</em>
+								</a>
+							</td>
+							<td>alexkim</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>제안합니다</span>
+								</a>
+							</td>
+							<td>hoje1012</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>ㅋㅋ</span>
+								</a>
+							</td>
+							<td>hbvn123</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>1라운드 마지막 도공과의 경기 잘 치루시길..</span>
+									<em>(10)</em>
+								</a>
+							</td>
+							<td>hoje1012</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>6914</td>
+							<td>
+								<a href="#">
+									<span>김도희 세터에게 보내는 편지.</span>
+								</a>
+							</td>
+							<td>hoje1012</td>
+							<td>2015/10/27</td>
+							<td>10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="tar mt10">
+				<a href="#" class="btnSt01 w64"><span>글쓰기</span></a>
+			</div>
+
+			<div class="listPaging">
+				<a href="#" class="startBtn"><span class="textOut">맨앞으로이동</span></a>
+				<a href="#" class="prevBtn"><span class="textOut">뒤로이동</span></a>
+					<span class="pageNum">
+						<a href="#" class="on">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+						<a href="#">10</a>
+					</span>
+				<a href="#" class="nextBtn"><span class="textOut">다음으로이동</span></a>
+				<a href="#" class="endBtn"><span class="textOut">마지막으로이동</span></a>
+			</div>
+			
+		</div>
+	</div>
+	<!-- // container -->	
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>흥국생명-핑크스파이더즈</title>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../common/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!--[if IE 7]><html class="ie7" lang="ko"><![endif]-->
+	<!--[if IE 8]><html class="ie8" lang="ko"><![endif]-->
+	<!--[if IE 9]><html class="ie9" lang="ko"><![endif]-->
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+		<div class="contents">
+			<div class="titleArea">
+				<h2 class="pageTitle">갤러리</h2>
+				<div class="location">
+					<a href="#">home</a> 
+					<span>&gt;</span>
+					<a href="#">news</a>
+					<span> &gt;</span>
+					<a href="#">갤러리</a>
+				</div>
+			</div>
+
+			<div class="recordTab w50p">
+				<ul>
+					<li class="on"><a href="#"><span>홈구장 안내</span></a></li>
+					<li><a href="#"><span>체육관 안내</span></a></li>
+				</ul>
+			</div>
+			<h3 class="title01 mt40"><span>인천 계양체육관(배드민턴체육관)</span></h3>
+			<p class="mt20">흥국생명 핑크스파이더스의 연고지는 인천이며,<span class="bold">천 일원 계양체육관(배드민턴체육관)을 홈경기장</span>으로 이용하고 있습니다. </p>
+			<div id="mapView01" class="mt20"></div>
+			<div class="addressInfo mt25">
+				<ul>
+					<li>
+						<span class="mapicon"><em><img src="../images/icon/icon_map01.png" alt="주소" /></em></span>
+						<p><em>주소 :</em> 인천광역시 계양구 서운동 110번지 일원 계양체육관(배드민턴체육관)</p></li>
+					<li>
+					<li>
+						<span class="mapicon"><em><img src="../images/icon/icon_map02.png" alt="일반버스" /></em></span> 
+						<p>
+							<em>일반버스 :</em>  <br />
+							계산역 2번 출구 / 작전역 4번 출구 → 버스환승 (88) → 서운체육관 하차 <br />
+							계산역 2번 출구 / 작전역 4번 출구 → 버스환승 (588) → 영음교회 하차 <br />
+							송내역2번출구(100미터 전방)  → 버스환승 (302) → 서운동 체육관 하차
+						</p>
+					</li>
+				</ul>
+				<ul>
+					<li><p><em>셔틀버스 :</em>  <br />작전역 3번 출구(경기시작 2시간 30분 전 부터)</p></li>
+				</ul>
+			</div>
+			<script>
+				$(document).ready(function(){
+					 var map01 = new packageUI.googleMap({
+					 	idName : "mapView01",
+					 	title : "인천 계양체육관",
+					 	xPoint : 37.5320230,
+					 	yPoint : 126.7451460
+					 });
+				});
+			</script>
+
+		</div>
+	</div>
+	<!-- // container -->	
+</body>
+</html>

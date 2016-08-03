@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>흥국생명-핑크스파이더즈</title>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../common/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!--[if IE 7]><html class="ie7" lang="ko"><![endif]-->
+	<!--[if IE 8]><html class="ie8" lang="ko"><![endif]-->
+	<!--[if IE 9]><html class="ie9" lang="ko"><![endif]-->
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+		<div class="contents">
+			<div class="titleArea">
+				<h2 class="pageTitle">갤러리</h2>
+				<div class="location">
+					<a href="#">home</a> 
+					<span>&gt;</span>
+					<a href="#">news</a>
+					<span> &gt;</span>
+					<a href="#">갤러리</a>
+				</div>
+			</div>
+			<div class="recordTab w25p">
+				<ul>
+					<li><a href="#"><span>구단역사</span></a></li>
+					<li><a href="#"><span>주요전적</span></a></li>
+					<li><a href="#"><span>역대감독</span></a></li>
+					<li class="on"><a href="#"><span>역대선수</span></a></li>
+				</ul>
+			</div>
+
+			<div class="yearTab mt30">
+				<ul>
+					<li><a href="#history01"><span>2010년대</span><i></i></a></li>
+					<li><a href="#history02"><span>2000년대</span><i></i></a></li>
+					<li><a href="#history03"><span>1990년대</span><i></i></a></li>
+					<li><a href="#history04"><span>1980년대</span><i></i></a></li>
+					<li><a href="#history05"><span>1970년대</span><i></i></a></li>
+				</ul>
+			</div>
+
+			<div id="result" class="mt30"><div class="loading"></div></div>
+
+			<script>
+				$(window).load(function(){
+					packageUI.pageLoad();
+				});
+			</script>
+		</div>
+	</div>
+	<!-- // container -->	
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>흥국생명-핑크스파이더즈</title>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../common/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!--[if IE 7]><html class="ie7" lang="ko"><![endif]-->
+	<!--[if IE 8]><html class="ie8" lang="ko"><![endif]-->
+	<!--[if IE 9]><html class="ie9" lang="ko"><![endif]-->
+</head>
+<body>
+	
+	<!-- wrapper -->
+	<div class="wrapper">
+
+		<!-- header-->
+		<div class="header">
+			<div class="headArea">
+				<h1 class="logo"><a href="#"><img src="../images/img/img_logo.jpg" alt="pinkspiders" /></a></h1>
+				<div class="gnbWrap">
+					<ul class="gnb">
+						<li><a href="#"><span>PINK SPIDERS</span></a></li>
+						<li><a href="#"><span>TEAM</span></a></li>
+						<li><a href="#"><span>GAME</span></a></li>
+						<li><a href="#"><span>NEWS</span></a></li>
+						<li><a href="#"><span>FANZONE</span></a></li>
+					</ul>
+					<div class="menuList">
+						<dl>
+							<dt>pink spiders</dt>
+							<dd><a href="#">인사말</a></dd>
+							<dd><a href="#">구단역사</a></dd>
+							<dd><a href="#">구단조직</a></dd>
+							<dd><a href="#">CI/엠블렘소개</a></dd>
+							<dd><a href="#">경기장안내</a></dd>
+						</dl>
+						<dl>
+							<dt>team</dt>
+							<dd><a href="#">코칭스텝</a></dd>
+							<dd><a href="#">선수</a></dd>
+							<dd><a href="#">응원단</a></dd>
+						</dl>
+						<dl>
+							<dt>game</dt>
+							<dd><a href="#">경기일정</a></dd>
+							<dd><a href="#">경기결과</a></dd>
+							<dd><a href="#">기록실</a></dd>
+							<dd><a href="#">티켓예매</a></dd>
+						</dl>
+						<dl>
+							<dt>news</dt>
+							<dd><a href="#">뉴스</a></dd>
+							<dd><a href="#">포토갤러리</a></dd>
+							<dd><a href="#">동영상갤러리</a></dd>
+						</dl>
+						<dl>
+							<dt>fanzone</dt>
+							<dd><a href="#">팬게시판</a></dd>
+							<dd><a href="#">이벤트</a></dd>
+						</dl>
+					</div>
+				</div>
+				<a href="#" class="loginBtn"><span>로그인</span></a>
+			</div>
+		</div>
+		<!--// header-->
+
+		<!-- mainVisual -->
+		<div class="mainVisual">
+			<div class="sliderArea">
+				<!-- 이미지 관리자 입력 -->
+				<ul id="bxslider01">
+					<li><a href="#"><img src="../images/img/img_slider01.jpg" alt="대체텍스트 관리자 입력" /></a></li>
+					<li><a href="#"><img src="../images/img/img_slider04.jpg" alt="대체텍스트 관리자 입력" /></a></li>
+					<li><a href="#"><img src="../images/img/img_slider02.jpg" alt="대체텍스트 관리자 입력" /></a></li>
+					<li><a href="#"><img src="../images/img/img_slider03.jpg" alt="대체텍스트 관리자 입력" /></a></li>
+				</ul>
+				<!-- // 이미지 관리자 입력 -->
+			</div>
+		</div>
+		<!--// mainVisual -->
+		
+		<!-- gameSchedule -->
+		<div class="gameSchedule">
+			<div class="scheduleArea">
+				<div class="schedule">
+					<ul class="scList">
+						<li><a href="#"><span>NEXT GAME</span></a></li>
+						<li class="on"><a href="#"><span>전체일정 보기</span></a></li>
+					</ul>
+					<div class="txt">
+						<p>2015. 11. 05 (목)</p>
+						<p>pm 17:00  수원종합운동장</p>
+					</div>
+				</div>
+				<div class="teamVs">
+					<div class="team">
+						<span class="logo"><img src="../images/common/logo_2004.png" alt="흥국생명"></span>
+						<p>흥국생명흥국생명흥국생명흥국생명</p>
+					</div>
+					<div class="centerbox">
+						<img src="../images/img/team_vs.png" alt="vs" />
+						<a href="#" class="ticketing"><span>예매하기</span></a>
+					</div>
+					<div class="team">
+						<span class="logo"><img src="../images/common/logo_2002.png" alt="한국도로공사"></span>
+						<p>한국도로공사</p>
+					</div>
+				</div>
+				<div class="teamRank">
+					<ul class="scList">
+						<li><a href="#"><span>TEAM RANK</span></a></li>
+						<li class="on"><a href="#"><span>전체순위 보기</span></a></li>
+					</ul>
+					<div class="txt">
+						<p>현재 팀순위 -  <span>1위</span></p>
+						<p>[ 4승 1패 9승점 ]</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // gameSchedule -->
+		
+		<!-- mainContainer -->
+		<div class="mainContainer">
+			<div class="mainContents">
+
+				<div class="section01">
+					<div class="newsArea">
+						<h2 class="title">news</h2>
+						<div class="news">
+							<!-- 이미지 관리자 입력 -->
+							<div class="thumb">
+								<a href="#a" id="thumb01" class="on"><img src="../images/img/img_main_news01.jpg" alt="대체텍스트 관리자 입력" /></a>
+								<a href="#b" id="thumb02"><img src="../images/img/img_sample1.jpg" alt="대체텍스트 관리자 입력" /></a>
+								<a href="#c" id="thumb03"><img src="../images/img/img_sample3.jpg" alt="대체텍스트 관리자 입력" /></a>
+							</div>
+							<!-- 이미지 관리자 입력 -->
+							<div class="list">
+								<ul>
+									<li>
+										<a href="#" data-name="thumb01">
+											<span>"V리그 여자부 감독들이<br />예상한 승후보는?…IBK<br />기업은행·흥국생명" </span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-name="thumb02">
+											<span>"V리그 여자부 감독들이<br />합작’ 흥국생명,<br />안방에서 KGC 격파</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-name="thumb03">
+											<span>"흥국생명 '2세트도<br />우리가 가볍게 이겼다'</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="galleryArea">
+						<h2 class="title">gallery</h2>
+						<div class="gallery">
+							<ul>
+								<li>
+									<a href="#">
+										<span class="thumb"><img src="../images/img/img_sample6.jpg" alt="대체텍스트 관리자 입력" /></span>
+										<span class="over">
+											<span class="txt">
+												<i class="ph"><span class="textOut">사진</span></i>
+												<em>
+													2015-2016 V리그 6R <br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+												</em>
+											</span>
+											<span class="bg"></span>
+										</span>
+										<span class="default">
+											<span class="bg"></span>
+											<span class="d_txt">
+												<em>
+													[2015-2016 V리그] 10월 17일 vs IBK기업은행
+												</em>
+											</span>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="thumb"><img src="../images/img/img_over02.jpg" alt="대체텍스트 관리자 입력" /></span>
+										<span class="over">
+											<span class="txt">
+												<i class="mo"><span class="textOut">동영상</span></i>
+												<em>
+													2015-2016 V리그 6R <br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+												</em>
+											</span>
+											<span class="bg"></span>
+										</span>
+										<span class="default">
+											<span class="bg"></span>
+											<span class="d_txt">
+												<em>
+													[2015-2016 V리그] 10월 17일 vs IBK기업은행
+												</em>
+											</span>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="thumb"><img src="../images/img/img_over03.jpg" alt="대체텍스트 관리자 입력" /></span>
+										<span class="over">
+											<span class="txt">
+												<i class="ph"><span class="textOut">사진</span></i>
+												<em>
+													2015-2016 V리그 6R <br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+												</em>
+											</span>
+											<span class="bg"></span>
+										</span>
+										<span class="default">
+											<span class="bg"></span>
+											<span class="d_txt">
+												<em>
+													[2015-2016 V리그] 10월 17일 vs IBK기업은행
+												</em>
+											</span>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="thumb"><img src="../images/img/img_over04.jpg" alt="대체텍스트 관리자 입력" /></span>
+										<span class="over">
+											<span class="txt">
+												<i class="mo"><span class="textOut">동영상</span></i>
+												<em>
+													2015-2016 V리그 6R <br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+													흥국생명vs 한국도로공사<br />
+												</em>
+											</span>
+											<span class="bg"></span>
+										</span>
+										<span class="default">
+											<span class="bg"></span>
+											<span class="d_txt">
+												<em>
+													[2015-2016 V리그] 10월 17일 vs IBK기업은행
+												</em>
+											</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="section02">
+					<div class="snsArea">
+						<ul>
+							<li>
+								<a href="#">
+									<em class="bgPurple"><img src="../images/icon/icon_sns01.png" class="mt20" alt="핑크 스파이더스 공식페이스북" /></em>
+									<span>
+										<strong class="cPurple">핑크 스파이더스는 언제나 팬과 함께 합니다!</strong>
+										<span>
+											흥국생명 Pink Spiders 공식페이스북입니다. <br />
+											다양한 소식과 정보를 구단 SNS를 통해 제공합니다.
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<em class="bgPink"><img src="../images/icon/icon_sns02.png" class="mt25" alt="응원글 남기기" /></em>
+									<span>
+										<strong class="cPink">선수들에게 힘찬 응원의 글을 남겨주세요~~</strong>
+										<span>
+											팬들과 함께 만들어 가는 열린 공간입니다. <br />
+											팬여러분 곁으로 다가가기 위해 더욱 노력하겠습니다!
+										</span>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="section03">
+					<div class="pinkSlide">
+						<ul id="bxslider02">
+							<li class="sBg01">
+								<div class="link">
+									<a href="#"><span>전체선수단보기</span></a>
+									<a href="#"><span>♥ 응원하러가요</span></a>
+								</div>
+								<span class="textOut">미녀군단흥국생명핑크스파이더스선수단을소개합니다.</span>
+							</li>
+							<li>
+								<div class="pinkList">
+									<a href="#a"><img src="../images/img/img_pink_list01.jpg" alt="우리선수들의기록이궁금하다면?" /></a>
+									<a href="#b"><img src="../images/img/img_pink_list02.jpg" alt="우리팀의기록이궁금하다면?" /></a>
+									<a href="#c"><img src="../images/img/img_pink_list03.jpg" alt="핑크스파이더스인천홈경기일정은?" /></a>
+									<a href="#d"><img src="../images/img/img_pink_list04.jpg" alt="박진감넘치는경기장의감동을직접느껴보세요!" /></a>
+								</div>
+							</li>
+							<li class="sBg02">
+								<div class="link"><a href="#"><span>코칭스텝보기</span></a></div>
+								<span class="textOut">흥국생명핑크스파이더스코칭스텝을소개합니다. 박미희감독이번엔우리가우승이다.</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- // mainContainer  -->
+
+		<!-- sideMenu -->
+		<div class="sideMenu">
+			<a href="#" class="faceBtn"><img src="../images/img/img_facebook.png" alt="페이스북영역열기" /></a>
+			<a href="#" class="shopBtn"><img src="../images/img/img_shop.png" alt="쇼핑몰" /></a>
+		</div>
+		<!--// sideMenu -->
+		
+		<!-- facebook -->
+		<div class="faceContent">
+			<a href="#" class="faceClose"><img src="../images/btn/img_faceclose.png" alt="페이스북영역닫기" /></a>
+			<div class="scrollArea" style="height:600px;">
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+				내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>내용<br>
+			</div>
+		</div>
+		<!--// facebook -->
+		
+		<!--footer-->
+		<div class="footer">
+			<div class="btmArea">
+				<div class="agree">
+					<ul>
+						<li><a href="#">개인정보보호정책</a></li>
+						<li><a href="#">이용약관</a></li>
+					</ul>
+					<p>copyright 2015 by hyngkuk life pink spiders. all right reserved</p>
+				</div>
+				<div class="sponsor">
+					<a href="#" class="fila"><img src="../images/img/img_sponsor.jpg" alt="스폰서fila" /></a>
+					<div class="familySite">
+						<a href="#"><span>패밀리사이트</span></a>
+						<div class="siteList">
+							<ul>
+								<li><a href="#"><span>OO 사이트</span></a></li>
+								<li><a href="#"><span>OO 사이트</span></a></li>
+								<li><a href="#"><span>OO 사이트</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--// footer-->
+
+	</div>
+	<!-- wrapper -->
+
+	<script type="text/javascript" src="../common/js/jquery.bxslider.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#bxslider01").bxSlider({
+				controls : false,
+				infiniteLoop: true,
+				hideControlOnEnd: true,
+				pager: true,
+				auto: true,
+				autoControls: true,
+				speed: 700
+			});
+			$('#bxslider02').bxSlider({
+				mode: 'vertical',
+				moveSlides: 1,
+				nextText: '',
+				prevText: '',
+				infiniteLoop: true,
+				hideControlOnEnd: true,
+				pager: true,
+				auto: false,
+				speed: 700
+			});
+			packageUI.facebookOpen();
+			packageUI.newsShow();
+		});
+	</script>
+</body>
+</html>

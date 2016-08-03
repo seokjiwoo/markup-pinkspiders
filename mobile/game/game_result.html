@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<title>흥국생명-핑크스파이더즈</title>
+	<link rel="stylesheet" href="../common/css/common.css">
+	<script type="text/javascript" src="../common/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+</head>
+<body>
+
+	<section class="container">
+		<!-- lnb -->
+		<section class="lnb w33p">
+			<ul>
+				<li class="on"><a href="#"><span>경기일정 및 결과</span></a></li>
+				<li><a href="#"><span>팀순위</span></a></li>
+				<li><a href="#"><span>티켓예매</span></a></li>
+			</ul>
+		</section>
+		<!-- // lnb -->
+
+		<!-- contents -->
+		<section class="contents nonePadding">
+			
+			<div class="resultGame">
+				<div class="gameInfo"><em>2015.10.17(토)</em> PM : 17:00 인천계양체육관</div>
+				<div class="scoreArea">
+					<div class="team">
+						<img src="../images/team/logo_2004.png" alt="" />
+						<p>흥국생명</p>
+					</div>
+					<div class="resultScore">
+						<em>3 : 1</em>
+						<span class="victory on"><em>승</em></span>
+					</div>
+					<div class="team">
+						<img src="../images/team/logo_2002.png" alt="" />
+						<p>KGC인삼공사</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="tables03">
+				<table>
+					<caption>팀스코어표</caption>
+					<colgroup>
+						<col width="30%" /><col width="11%" /><col width="11%" /><col width="11%" /><col width="11%" /><col width="11%" /><col width="15%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">팀</th>
+							<th scope="col">1</th>
+							<th scope="col">2</th>
+							<th scope="col">3</th>
+							<th scope="col">4</th>
+							<th scope="col">5</th>
+							<th scope="col">합계</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>흥국생명</td>
+							<td>25</td>
+							<td>25</td>
+							<td>17</td>
+							<td>25</td>
+							<td>0</td>
+							<td>92</td>
+						</tr>
+						<tr>
+							<td>한국도로공사</td>
+							<td>19</td>
+							<td>16</td>
+							<td>25</td>
+							<td>16</td>
+							<td>0</td>
+							<td>66</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="s_title01 mt10"><span>흥국생명 선수기록</span></h3>
+			<div class="recordWrap mt10">
+				<div class="t_left">
+					<div class="tables03 bdr">
+						<table>
+							<caption>팀스코어표</caption>
+							<thead>
+								<tr>
+									<th scope="col">선수</th>
+								</tr>
+							</thead>
+							<tobdy>
+								<tr>
+									<td>테일러</td>
+								</tr>
+								<tr>
+									<td>정시영</td>
+								</tr>
+								<tr>
+									<td>정시영</td>
+								</tr>
+							</tobdy>
+						</table>
+					</div>
+				</div>
+				<div class="t_right">
+					<div id="t_viewer">
+						<div class="scroller">
+							<div class="tables03" style="width:360px;">
+								<table>
+									<caption>팀스코어표</caption>
+									<colgroup>
+										<col width="14%" /><col width="14%" /><col width="14%" /><col width="14%" />
+										<col width="14%" /><col width="14%" /><col width="14%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col">득점</th>
+											<th scope="col">공격</th>
+											<th scope="col">서브</th>
+											<th scope="col">디그</th>
+											<th scope="col">세트</th>
+											<th scope="col">리시브</th>
+											<th scope="col">블로킹</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>25</td>
+											<td>25</td>
+											<td>25</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>18</td>
+											<td>17</td>
+											<td>17</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>18</td>
+											<td>17</td>
+											<td>17</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- // contents  -->
+	</section>
+	
+	<script type="text/javascript" src="../common/js/jindo.mobile.min.js"></script>
+	<script type="text/javascript" src="../common/js/jindo.mobile.component.js"></script>
+	<script type="text/javascript" src="../common/js/default.dependency.js"></script>
+	<script>
+		jQuery(window).load(function(){
+			var tHeight = jQuery(".t_right").outerHeight();
+			jQuery(".recordWrap").outerHeight( tHeight );
+			jindo.$Fn(function(){ new LnbScrollManager(jindo.$("t_viewer")); }).delay(0.2);
+		});
+	</script>
+	
+</body>
+</html>
